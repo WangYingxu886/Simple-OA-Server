@@ -1,0 +1,22 @@
+[2021-09-23T17:15:57.759] [ERROR] error - ReferenceError: ctx is not defined
+    at /Users/wyx/Desktop/backAdmin/manager-server/app.js:18:3
+    at dispatch (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wyx/Desktop/backAdmin/manager-server/app.js:15:9
+    at dispatch (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:394:28)
+    at parserOnIncoming (node:_http_server:927:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2021-09-23T17:17:57.399] [ERROR] error - ReferenceError: ctx is not defined
+    at /Users/wyx/Desktop/backAdmin/manager-server/app.js:15:3
+    at dispatch (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wyx/Desktop/backAdmin/manager-server/app.js:12:9
+    at dispatch (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/wyx/Desktop/backAdmin/manager-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:394:28)
+    at parserOnIncoming (node:_http_server:927:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
